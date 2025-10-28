@@ -12,7 +12,7 @@ return {
         "stevearc/conform.nvim",
         opts = {
             formatters_by_ft = {
-                python = { "ruff" },
+                python = { "ruff_format" },
                 c = { "clang_format" },
             },
             format_on_save = {
