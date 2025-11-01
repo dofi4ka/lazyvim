@@ -5,6 +5,7 @@ return {
             servers = {
                 clangd = {},
                 pyright = {},
+                gleam = {},
             }
         }
     },
@@ -14,6 +15,7 @@ return {
             formatters_by_ft = {
                 python = { "ruff_format" },
                 c = { "clang_format" },
+                gleam = { "gleam_format" },
             },
         }
     },
