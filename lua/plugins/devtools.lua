@@ -22,12 +22,6 @@ return {
                 gleam = { "gleam_format" },
                 sql = { "sqlfluff" },
             },
-            formatters = {
-                sqlfluff = {
-                    command = "sqlfluff",
-                    args = { "format", "--dialect", "postgres", "-" },
-                }
-            },
         }
     },
 }
