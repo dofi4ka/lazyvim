@@ -7,9 +7,10 @@ return {
         "neovim/nvim-lspconfig",
         opts = {
             servers = {
-                clangd = {},
                 pyright = {},
+                clangd = {},
                 gleam = {},
+                postgres_lsp = {},
             }
         }
     },
