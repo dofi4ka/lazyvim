@@ -8,9 +8,11 @@ return {
         opts = {
             servers = {
                 pyright = {},
-                clangd = {},
+                clangd = {
+                    cmd = "clangd"
+                },
                 gleam = {},
-                postgres_lsp = {},
+                sqls = {},
             }
         }
     },
@@ -21,7 +23,7 @@ return {
                 python = { "ruff_format" },
                 c = { "clang_format" },
                 gleam = { "gleam_format" },
-                sql = { "sqlfluff" },
+                sql = { "pg_format" },
             },
         }
     },
