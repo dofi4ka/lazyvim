@@ -24,6 +24,7 @@ return {
                 c = { "clang_format" },
                 gleam = { "gleam_format" },
                 sql = { "pg_format" },
+                java = { "google-java-format" }
             },
         }
     },
