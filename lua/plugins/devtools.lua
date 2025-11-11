@@ -13,6 +13,7 @@ return {
                 },
                 gleam = {},
                 sqls = {},
+                jdtls = {},
             }
         }
     },
